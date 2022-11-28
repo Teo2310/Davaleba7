@@ -1,0 +1,244 @@
+.conteiner{
+    max-width: 1366px;
+    width: 100%;
+    transform: translateZ(0); 
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    position: relative;
+    padding-top: 119px;
+}
+
+
+header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:inherit;
+    position: fixed;
+    transform: translateX(-50%);
+    height: 110px;
+    left: 50%;
+    top: 0%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    z-index: 10;
+    padding: 15px;
+/* ჰედერის ნაწილი არ იფიქსება, ალბათ რამე უშლის ხელს მაგრამ მე ვერ გავარკვიე */
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.icons{
+    color: #242424;
+    text-align: center;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+    
+
+
+/* პირველი ნაწილი */
+.section1{
+    width: 90%;
+    height: 417px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.coverimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.section1_text{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+}
+
+.p1{ 
+    font-size: 24px;
+    color: white;
+}
+
+button{
+    margin-top: 19px;
+    width: 176px;
+    height: 42px;
+    font-size: 14px;
+    border: 0;
+    font-weight: bold;
+}
+
+
+/* მეორე ნაწილი */
+.section2{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* პროდუქტების ნაწილი */
+
+.menu{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    
+}
+
+
+.product{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 475px;
+    justify-content: space-around;
+}
+
+
+.img{
+    width: 80%;
+    height: 40%;
+
+}
+
+.brand{
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.descr{
+    width: 80%;
+    font-size: 12px;
+    color: #6E6E6E;
+}
+
+
+.amount{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.price{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gr{
+    background-color: #f8f8f8;
+    width: 105px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.kg{
+    display: inline-block;
+    vertical-align: middle;
+    background-color:  #E7E7E7;
+    width: 105px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 7px;
+    
+}
+
+.price1{
+
+    color: #F5621F;
+    font-size: 24px;
+    
+}
+
+.cart{ 
+    padding: 7px;
+    background-color: #74B42C;
+    border-radius: 5px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+}
+
+.price3{
+    font-size: 14px;
+    color: #111111;
+    margin-top: 24px;
+}
+
+.price2{
+    color: #111111;
+    font-size: 24px; 
+}
+
+
+
+/* ფუთერი */
+
+footer{
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+.bottomicon{
+    width: 141px;
+    height: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 121px;
+}
+h4{
+    font-weight: bold;
+    font-size: 14px;
+}
